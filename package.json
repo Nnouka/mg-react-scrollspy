@@ -1,0 +1,37 @@
+{
+  "name": "mg-react-scrollspy",
+  "version": "1.0.9",
+  "description": "Scroll reveal by css transition props only",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nnouka/mg-react-scrollspy.git"
+  },
+  "author": "nouks <nnoukastephen@gmail.com> (https://mungwin.net)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.1",
+    "prop-types": "^15.7.2",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "dependencies": {}
+}
